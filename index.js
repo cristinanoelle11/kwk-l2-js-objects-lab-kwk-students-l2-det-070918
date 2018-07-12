@@ -11,7 +11,7 @@ function deleteFromDriverByKey(driver, key){
   const cristinaObj = Object.assign({},driver);
     
   delete cristinaObj[key];
-  return newObj;
+  return cristinaObj;
 }
 function destructivelyDeleteFromDriverByKey(){
   
