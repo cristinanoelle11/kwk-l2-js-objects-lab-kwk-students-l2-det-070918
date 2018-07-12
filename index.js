@@ -13,6 +13,6 @@ function deleteFromDriverByKey(driver, key){
   delete cristinaObj[key];
   return cristinaObj;
 }
-function destructivelyDeleteFromDriverByKey(){
+function destructivelyDeleteFromDriverByKey(driver, key){
   
 }
